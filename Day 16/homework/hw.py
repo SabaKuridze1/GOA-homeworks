@@ -37,7 +37,7 @@ print(a<=a)
 
 #!=
 print(a!=b)
-print(a1=c)
+print(a!=c)
 print(a!=d)
 print(a!=e)
 print(a!=a)
