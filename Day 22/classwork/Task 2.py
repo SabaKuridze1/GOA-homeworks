@@ -10,4 +10,3 @@ while num1<num:
 
 
 
-
