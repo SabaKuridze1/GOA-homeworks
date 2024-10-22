@@ -1,0 +1,7 @@
+/* 1)შექმენით ცხრილი 5 სტრიქონით და 3 სვეტით, დაამატეთ border და სხვადასხვა ფერები. */
+
+table{
+    border: solid;
+    color: hex(#84ff00);
+    border-collapse: collapse;
+}
