@@ -2,6 +2,8 @@
 
 def more_than_0(a):
     if a > 0:
-        print('its higher than 0')
+        return('its higher than 0')
     else:
-        print('its lower than 0')
+        return('its lower than 0')
+    
+more_than_0(1)

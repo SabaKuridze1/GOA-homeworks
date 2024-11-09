@@ -2,8 +2,8 @@
 
 def even_odd(a):
     if  a %2==0:
-        print('even')
+        return 'even'
     else:
-        print('odd')
+        return 'odd'
 
 even_odd(6)

@@ -1,6 +1,7 @@
 # 4)  დაწერე ფუნქცია, რომელიც მიიღებს სიას და აბრუნებს მასში მყოფი ელემენტების რაოდენობას.
+list=list(input("enter some numbers: "))
 
-def len_list(a):
-    print(len(a))
+def len_list():
+    return(len(list))
 
-len_list[1, 2, 3, 4, 5, 6]
+len_list()

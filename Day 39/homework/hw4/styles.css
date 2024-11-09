@@ -1,0 +1,101 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    background-color: #1DB954; /* Spotify's signature green */
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.search-container input {
+    padding: 8px 12px;
+    border-radius: 20px;
+    border: none;
+    background-color: #333;
+    color: white;
+    width: 200px;
+    font-size: 14px;
+}
+
+main {
+    padding: 20px;
+}
+
+/* Music Player */
+.player {
+    margin-top: 30px;
+    background-color: #181818;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.player-info {
+    display: flex;
+    align-items: center;
+}
+
+.player-info img {
+    width: 80px;
+    border-radius: 8px;
+}
+
+.song-info {
+    margin-left: 20px;
+}
+
+.song-info h4 {
+    margin: 0;
+    font-size: 18px;
+}
+
+.song-info p {
+    margin: 5px 0 0;
+    font-size: 14px;
+    color: #b3b3b3;
+}
+
+/* Controls */
+.controls {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+button {
+    background-color: #1DB954;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50%;
+    font-size: 16px;
+    cursor: pointer;
+    color: white;
+}
+
+button:hover {
+    background-color: #1ed760;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #121212;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 12px;
+}
