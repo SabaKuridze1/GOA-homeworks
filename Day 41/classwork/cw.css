@@ -1,0 +1,22 @@
+/* 1) შექმენით რამდენიმე ლისტი გამოიყენეთ ახლა ნასწავლი ლისტის ყველა ტიპი და გამოიყენეთ ლისტის პოზიციები და ასევე დაამატეთ ერთიც ლისტის ფოტო */
+
+.ul1{
+    list-style-type: georgian;
+    list-style-position: inside;
+}
+.ul2{
+    list-style-type: lower-greek;
+    list-style-position: outside;
+}
+.ul3{
+    list-style-type: lower-roman;
+    list-style-position: inside;
+}
+.ul4{
+    list-style-type: lower-latin;
+    list-style-position: outside;
+}
+.ul5{
+    list-style-position: inside;
+    list-style-image: url(./image.png);
+}
