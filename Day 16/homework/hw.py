@@ -1,5 +1,5 @@
 #Boolean is True or False.
-#Bynary code is code with only 1s and 0s
+#Binary code is code with only 1s and 0s
 
 a=10
 b=5

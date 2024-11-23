@@ -1,0 +1,27 @@
+.div{
+    width: 200px;
+    height: 200px;
+    background-color: #000;
+    border: 5px solid cyan;
+    border-radius: 100% 0px 30px 0px;
+}
+
+.none{
+    visibility: hidden;
+    width: 200px;
+    height: 200px;
+}
+
+.div2{
+    width: 200px;
+    height: 200px;
+    background-color: #000;
+    border: 5px solid cyan;
+    border-radius: 30px 0px 100% 0px;
+}
+
+.main-div{
+    border: 50px solid black;
+    border-radius: 50%;
+    width: 414px;
+}

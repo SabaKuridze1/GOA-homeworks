@@ -1,0 +1,12 @@
+input[type= "text"]{
+    outline: none;
+}
+input[type= "email"]{
+    outline: none;
+}
+input[type= "password"]{
+    outline: none;
+}
+input[type= "date"]{
+    outline: none;
+}
