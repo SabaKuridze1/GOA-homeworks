@@ -1,0 +1,28 @@
+.square{
+    width: 200px;
+    height: 200px;
+    margin: 20px;
+    background-color: black;
+    color: #fff;
+    border: solid 5px green;
+    padding-left: 10px;
+    padding-top: 15px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+}
+
+.square2{
+    width: 200px;
+    height: 200px;
+    border: solid 5px green;
+    background-color: blue;
+    color: #fff;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 15px;
+    margin-right: 20px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 20px;
+}
