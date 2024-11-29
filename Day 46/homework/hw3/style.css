@@ -1,0 +1,89 @@
+#Result{
+    height: 350px;
+    width: 250px;
+    background-color: darkblue;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+}
+
+h2{
+    color: rgb(2, 2, 202);
+}
+
+h1,p{
+    color: white;
+}
+
+body{
+    display: flex;
+    flex-shrink: inherit;
+    flex-grow: unset;
+}
+
+#Preformance{
+    background-color: rgb(204, 204, 204);
+    height: 350px;
+    width: 250px;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    background-color: rgb(2, 2, 188);
+    height: 70px;
+    width: 70px;
+    border-radius: 100%;
+    text-align: center;
+    justify-content: center;
+}
+
+#Reaction{
+    background-color: rgb(251, 177, 177);
+    color: red;
+    border-radius: 10px;
+    height: 30px;
+    text-align: center;
+    width: 170px;
+}
+
+#Memory{
+    background-color: rgb(253, 253, 131);
+    color: rgb(135, 135, 4);
+    border-radius: 10px;
+    height: 30px;
+    text-align: center;
+    width: 170px;
+}
+
+#Visual{
+    background-color: rgb(157, 157, 252);
+    color: blue;
+    border-radius: 10px;
+    height: 30px;
+    text-align: center;
+    width: 170px;
+}
+
+#Verbal{
+    background-color: rgb(142, 249, 142);
+    color: green;
+    border-radius: 10px;
+    height: 30px;
+    text-align: center;
+    width: 170px;
+}
+
+button{
+    background-color: black;
+    color: white;
+    height: 20px;
+    width: 150px;
+    border-radius: 25px;
+}
