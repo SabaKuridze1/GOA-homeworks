@@ -1,0 +1,17 @@
+#main{
+    display: flex;
+    height: 1000px;
+    width: 1000px;
+    background-color: green;
+    justify-content: center;
+}
+
+.c{
+    display: flex;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    justify-content: space-between;
+    flex-direction: row;
+    border: solid;
+}
