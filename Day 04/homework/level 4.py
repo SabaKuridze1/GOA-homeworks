@@ -14,6 +14,8 @@ print((parentage + 10)/(myage + 10))
 
 
 
+
+
 print(8+4)
 print(8-4)
 print(8/4)

@@ -1,0 +1,1 @@
+# axla gadavxede da ar weria lvl 41-is davaleba. lukas qonda dawerili da gavida
