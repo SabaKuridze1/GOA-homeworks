@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    width: 100px;
+    height: 100px;
+    display: flex;
+    align-self: flex-start;
+}
+.div1{
+    display: flex;
+    flex-direction: column;
+    border: solid;
+    background-color: red;
+}
+.div2{
+    display: flex;
+    flex-direction: column-reverse;
+    border: solid;
+    background-color: red;
+}
+.div3{
+    display: flex;
+    flex-direction: row;
+    border: solid;
+    background-color: red;
+}
+.div4{
+    display: flex;
+    flex-direction: row-reverse;
+    border: solid;
+    background-color: red;
+
+}
+.child-div{
+    width: 30px;
+    height: 30px;
+    background-color: green;
+    border: solid;
+}

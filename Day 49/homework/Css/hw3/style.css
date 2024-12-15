@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+div{
+    border: 1px solid black;
+}
+.main-div{
+    background-color: red;
+    display: flex;
+    justify-content: space-evenly;    
+}
+.child-div{
+    background-color: green;
+}
