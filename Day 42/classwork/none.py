@@ -1,1 +1,0 @@
-# dges classwork ar gvqonia

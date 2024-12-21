@@ -1,1 +1,2 @@
-#i didnt get it
+def litres(time):
+    return time // 2

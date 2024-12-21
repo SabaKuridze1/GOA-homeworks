@@ -1,0 +1,11 @@
+.div1{
+    width: 10rem;
+    height: 10rem;
+    background-color: lawngreen;
+}
+.div1:hover{
+    width: 15rem;
+    height: 15rem;
+    background-color: lightblue;
+    transition: 0.5s;
+}

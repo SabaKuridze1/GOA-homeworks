@@ -1,0 +1,13 @@
+table{
+    border: solid;
+    border-collapse: collapse;
+}
+
+tr th{
+    border: solid;
+    text-align: center;
+}
+tr td{
+    border: solid;
+    text-align: center;
+}
