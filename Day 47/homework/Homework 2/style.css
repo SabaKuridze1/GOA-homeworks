@@ -1,1 +1,15 @@
-/* ra uweria vafshe */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    background-color: darkturquoise;
+    padding-left: 5px;
+    padding-right: 5px;
+    gap: 20px;
+}
+.header1{
+    padding-right: 1160px;
+}

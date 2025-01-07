@@ -1,0 +1,46 @@
+/* Basic reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* Card styling */
+  .card {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Header section of the card */
+  .card-header {
+    position: relative; /* This makes it a reference point for the absolute positioning */
+    padding: 15px;
+    background-color: #f4f4f4;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  /* Absolute positioned element in the card header */
+  .badge {
+    position: absolute;
+    top: 10px;    /* Position from the top of the header */
+    right: 10px;  /* Position from the right of the header */
+    background-color: #ff4081;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+  }
+  
+  /* Body section of the card */
+  .card-body {
+    padding: 15px;
+    background-color: #fff;
+  }
+  
