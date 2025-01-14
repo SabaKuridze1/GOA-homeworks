@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.block1, .block2, .block3{
+    background-color: lightskyblue;
+    width: 500px;
+    height: 500px;
+}
+.main{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 100px;
+}
