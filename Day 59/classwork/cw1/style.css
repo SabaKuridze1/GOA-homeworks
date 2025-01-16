@@ -1,0 +1,19 @@
+.animation{
+    width: 150px;
+    height: 150px;
+    background-color: brown;
+    animation-name: MyAnimation;
+    animation-duration: 5s;
+}
+@keyframes MyAnimation{
+    from{
+        background-color: brown;
+    }
+    to{
+        background-color: aquamarine;
+        width: 500px;
+        height: 500px;
+        rotate: 360deg;
+    }
+    
+}
