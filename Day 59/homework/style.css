@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #0000;
+  }
+  
+  .main{
+    width: 80%;
+    max-width: 600px;
+    height: 20px;
+    background-color: #ddd;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .loading{
+    width: 0;
+    height: 100%;
+    background-color: #25ccff;
+    animation-name: loading;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+  }
+  
+  @keyframes loading{
+    0% {
+      width: 0;
+    }
+    25%{
+        width: 25%;
+    }
+    50% {
+      width: 50%;
+    }
+    75%{
+        width: 75%;
+    }
+    100% {
+      width: 100%;
+    }
+  }
+  
