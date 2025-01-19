@@ -1,0 +1,27 @@
+.square{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.square p{
+    color: transparent;
+}
+.square:hover{
+    animation-name: myAnimation;
+    animation-duration: 3s;
+}
+@keyframes myAnimation{
+    0%{
+        transform: scale(1);
+        color: transparent;
+    }
+    50%{
+        transform: translateX(100px);
+    }
+    100%{
+        color: white;
+    }
+}

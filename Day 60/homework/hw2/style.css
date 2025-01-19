@@ -1,0 +1,20 @@
+.square{
+    width: 150px;
+    height: 150px;
+    background-color: blue;
+
+}
+@keyframes myAnimation{
+    0%{
+        width: 170px;
+    }
+
+    100%{
+        width: 300px;
+        background-color: green;
+    }
+}
+.square:hover{
+    animation-name: myAnimation;
+    animation-duration: 3s;
+}

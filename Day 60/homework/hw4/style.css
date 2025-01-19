@@ -1,0 +1,28 @@
+.guli img{
+    width: 500px;
+    animation-name: guliscema;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+}
+.guli{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@keyframes guliscema{
+    0%{
+        transform: scale(1.2);
+    }
+    25%{
+        transform: scale(1);
+    }
+    50%{
+        transform: scale(1.3);
+    }
+    75%{
+        transform: scale(1);
+    }
+    100%{
+        transform: scale(1.2);
+    }
+}
