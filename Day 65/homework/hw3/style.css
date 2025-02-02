@@ -1,0 +1,116 @@
+body {
+    font-family: 'Red Hat Display', sans-serif;
+    background-color: hsl(225, 100%, 94%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card {
+    background-color: white;
+    border-radius: 15px;
+    overflow: hidden;
+    max-width: 450px; 
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.1);
+}
+
+.hero-image {
+    width: 100%;
+    display: block; 
+}
+
+.card-content {
+    padding: 30px;
+    text-align: center;
+}
+
+h1 {
+    color: hsl(223, 47%, 23%);
+    margin-bottom: 15px;
+}
+
+p {
+    color: hsl(224, 23%, 55%);
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+.plan-details {
+    background-color: hsl(225, 100%, 98%);
+    padding: 20px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.plan-icon {
+  margin-right: 20px;
+}
+
+.plan-info {
+  flex-grow: 1; 
+  text-align: left; 
+}
+.plan-info h3 {
+  color:  hsl(223, 47%, 23%);
+  margin: 0;
+}
+
+.plan-info p {
+  margin: 0;
+}
+
+.plan-details a {
+    color:  hsl(245, 75%, 52%);
+    font-weight: 700;
+    margin-left: auto; 
+    transition: color 0.3s ease;
+}
+
+.plan-details a:hover {
+    color: hsl(245, 75%, 40%);
+    text-decoration: none; 
+}
+
+
+.proceed-button {
+    background-color:  hsl(245, 75%, 52%);
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 700;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom: 15px;
+    transition: background-color 0.3s ease;
+}
+
+.proceed-button:hover {
+    background-color: hsl(245, 75%, 40%);
+}
+
+.cancel-button {
+    background-color: transparent;
+    color: hsl(224, 23%, 55%);
+    border: none;
+    padding: 15px 25px;
+    border-radius: 10px;
+    font-weight: 700;
+    cursor: pointer;
+    width: 100%;
+    transition: color 0.3s ease;
+}
+
+.cancel-button:hover {
+    color: hsl(223, 47%, 23%);
+}
