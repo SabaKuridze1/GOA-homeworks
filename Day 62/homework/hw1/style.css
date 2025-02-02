@@ -1,0 +1,76 @@
+
+
+body {
+    font-family: 'Lexend Deca', sans-serif;
+    background-color: hsl(0, 0%, 95%); 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.card-container {
+    display: flex;
+    flex-direction: column;
+    max-width: 900px;
+    margin: 20px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.card {
+    padding: 40px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.card img {
+    margin-bottom: 20px;
+}
+
+.card h2 {
+    font-family: 'Big Shoulders Display', sans-serif;
+    font-weight: 700;
+    color: hsl(0, 0%, 95%);
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+.card p {
+    color: hsla(0, 0%, 100%, 0.75); 
+}
+
+.card a {
+    background-color: hsl(0, 0%, 95%); 
+    color: inherit;
+    text-decoration: none;
+    padding: 15px 30px;
+    border-radius: 25px;
+    margin-top: 30px;
+    font-weight: 700;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.card a:hover {
+    background-color: transparent;
+    color: hsl(0, 0%, 95%); 
+    border: 2px solid hsl(0, 0%, 95%); 
+}
+
+.card-sedans {
+    background-color: hsl(31, 77%, 52%); 
+    border-top-right-radius: 10px;
+}
+
+.card-suvs {
+    background-color: hsl(184, 100%, 22%); 
+}
+
+.card-luxury {
+    background-color: hsl(179, 100%, 13%); 
+    border-bottom-right-radius: 10px;
+}
+
