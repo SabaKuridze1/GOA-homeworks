@@ -1,0 +1,46 @@
+.red{
+    background-color: red;
+    animation-timing-function: ease;
+}
+.green{
+    background-color: green;
+    animation-timing-function: linear;
+}
+.gray{
+    background-color: gray;
+    animation-timing-function: ease-in;
+}
+.blue{
+    background-color: blue;
+    animation-timing-function: ease-out;
+}
+.yellow{
+    background-color: yellow;
+    animation-timing-function: ease-in-out;
+}
+
+.parent-div div{
+    animation-name: rotate;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    width: 150px;
+    height: 150px;
+}
+
+@keyframes rotate{
+    0%{
+        transform: rotate(0);
+    }
+    25%{
+        transform: rotate(180deg);
+    }
+    50%{
+        transform: rotate(360deg);
+    }
+    75%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(0);
+    }
+}

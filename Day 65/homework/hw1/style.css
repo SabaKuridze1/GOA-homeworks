@@ -7,6 +7,7 @@ body {
   align-items: center;
   min-height: 100vh;
   margin: 0;
+  flex-direction: column;
 }
 
 main {
@@ -112,4 +113,8 @@ p {
 
 .creator span {
   color: hsl(215, 51%, 70%);
+}
+
+.atribution{
+  gap: 50px;
 }

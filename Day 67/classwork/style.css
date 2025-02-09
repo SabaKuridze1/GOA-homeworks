@@ -1,0 +1,35 @@
+.red{
+    background-color: red;
+}
+.blue{
+    background-color: blue;
+}
+.brown{
+    background-color: brown;
+}
+.green{
+    background-color: green;
+}
+.yellow{
+    background-color: yellow;
+}
+.purple{
+    background-color: purple;
+}
+.gray{
+    background-color: gray;
+}
+.black{
+    background-color: black;
+}
+.pink{
+    background-color: pink;
+}
+.parent-div div{
+    height: 150px;
+}
+.parent-div{
+    display: grid;
+    grid-template-columns: 150px 150px 150px;
+    gap: 20px;
+}
