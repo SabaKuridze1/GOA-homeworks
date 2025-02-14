@@ -1,0 +1,118 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    background-color: hsl(229, 57, 11);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0; /* Remove default body margin */
+}
+
+.container {
+    background-color: hsl(228, 56, 26);
+    color: white;
+    padding: 30px;
+    border-radius: 10px;
+    display: flex;
+    gap: 30px; /* Space between left and right sides */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow */
+}
+
+.left-side {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.logo {
+    width: 80px;
+}
+
+.icon-container {
+    display: flex;
+    gap: 15px;
+}
+
+.icon-container img {
+    background-color: hsl(229, 57, 11);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    width: 350px; /* Set a specific width for better layout */
+}
+
+.storage-info {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+}
+
+.progress-bar-container {
+    background-color: hsl(229, 57, 11);
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.progress-bar {
+    height: 20px;
+    background-color: hsl(228, 56, 26);
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden; /* Hide overflowing progress */
+}
+
+.progress-level {
+    height: 100%;
+    background: linear-gradient(to right, hsl(6, 100, 80%), hsl(335, 100, 65%));
+    border-radius: 10px;
+}
+
+.circle {
+  position: absolute;
+  top: 50%;
+  left: 81.5%; /* Match progress level */
+  transform: translate(-50%, -50%);
+  width: 15px;
+  height: 15px;
+  background-color: white;
+  border-radius: 50%;
+}
+
+
+.storage-range {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.8rem;
+    margin-bottom: 20px;
+}
+
+.gb-left {
+  background-color: white;
+  color: hsl(228, 56, 26);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  position: relative;
+  font-size: 1.2rem;
+}
+
+.gb-left span {
+  font-weight: bold;
+}
+
+.popup {
+  position: absolute;
+  top: -60px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+  color: hsl(228, 56, 26);
+  padding: 10px 20px;
+  border-radius: 10px;
+  font-size: 0.9rem;
+  white-space: nowrap; /* Prevent popup from wrapping */
+}

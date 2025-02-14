@@ -14,10 +14,10 @@
     background-color: blue;
     animation-direction: alternate-reverse;
 }
-.yellow{
+/* .yellow{
     background-color: yellow;
     animation-timing-function: ease-in-out;
-}
+} */
 
 .parent-div div{
     animation-name: rotate;

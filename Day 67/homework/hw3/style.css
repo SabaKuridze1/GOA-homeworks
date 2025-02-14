@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cards{
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+    gap: 20px;
+}
+.card{
+    width: 200px;
+    height: 250px;
+    border: 1px solid ;
+    border-radius: 5px;
+}
+.card img{
+    height: 150px;
+    width: 100%;
+}

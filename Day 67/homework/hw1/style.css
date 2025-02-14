@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.cards{
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    gap: 30px;
+}
+.card1{
+    display: flex;
+    flex-direction: column;
+    background-color: lightskyblue;
+    color: white;
+}
+.card2{
+    display: flex;
+    flex-direction: column;
+    background-color: orange;
+    color: white;
+}
+.card3{
+    display: flex;
+    flex-direction: column;
+    background-color: darkblue;
+    color: white;
+}
+.cards div button{
+    background-color: gray;
+    color: white;
+    opacity: 0.6;
+    border-radius: 20%;
+    width: 90px;
+}
