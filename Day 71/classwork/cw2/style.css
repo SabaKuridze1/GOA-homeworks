@@ -1,0 +1,66 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(49, 49, 49);
+    border-top: 5px orange solid;
+    color: white;
+    display: flex;
+    gap: 50px;
+    height: 60px;
+    justify-content: center;
+    align-items: center;
+}
+header h1{
+    margin-right: 40px;
+}
+nav ul{
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+    font-size: x-large;
+
+}
+.sa{
+    color: orange;
+}
+#portfolio{
+    color: orange;
+    text-decoration: underline;
+}
+header button{
+    background-color: white;
+    color: black;
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    margin-left: 45px;
+}
+
+/*  */
+main span{
+    color: orange;
+}
+main img{
+    width: 500px;
+    border-radius: 50%;
+    margin-left: 800px;
+}
+.desc h3{
+    font-size: 2rem;
+}
+.desc h1{
+    font-size: 4rem;
+}
+.desc{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 100px;
+    margin-left: 100px;
+}

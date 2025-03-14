@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.grid{
+    display: grid;
+    grid-template-columns:  200px 200px 200px 200px 200px 200px 200px 200px 200px 200px;
+    grid-template-rows:  200px 200px 200px 200px 200px 200px 200px 200px 200px 200px;
+}
+.grid div{
+    background-color: blue;
+    grid-area: /* grid-column-start: 3 ==*/ 3 / 5 /*== grid-row-start: 5*/  /  /* grid-column-end: 7 ==*/ 7 / 9 /*== grid-row-end: 9*/; 
+}
