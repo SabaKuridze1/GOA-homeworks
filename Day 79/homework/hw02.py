@@ -1,0 +1,5 @@
+"""2) შექმენით ცვლადი რომელსაც განაახლებთ 4-ჯერ."""
+name = "saba"
+name = "gabrieli"
+name = "ana"
+name = "gio"
