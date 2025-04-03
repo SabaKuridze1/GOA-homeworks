@@ -5,7 +5,79 @@
     box-sizing: border-box;
 }
 
+body {
+    font-family: "inter", sans serif;
+}
+
 header{
     display: flex;
-    
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px;
+    gap: 70px;
+}
+.logo{
+    height: 1.5rem;
+}
+header button{
+    background-color: #4CAF4F;
+    border: none;
+    border-radius: 3px;
+    height: 45px;
+    width: 160px;
+    color: white;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 35%;
+    /* gap: 20px; */
+}
+nav ul{
+    display: flex;
+    gap: 20px;
+    list-style-type: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+main{
+    background-color: #F5F7FA;
+}
+.hero{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+.hero h1{
+    font-size: 75px;
+    color: #4D4D4D;
+    font-weight: 600;
+}
+.green{
+    color: #4CAF4F
+}
+.qvemota p{
+    font-size: 15px;
+    margin-top: 20px;
+}
+.hero img{
+    width: 450px;
+}
+
+.hero button{
+    background-color: #4CAF4F;
+    color: white;
+    border: none;
+    border-radius: 3px;
+    height: 45px;
+    width: 120px;
+    margin-top: 40px;
 }
