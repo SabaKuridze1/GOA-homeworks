@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results Summary Component</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main class="card">
+        <div class="result-section">
+            <h2 class="result-title">Your Result</h2>
+            <div class="score-circle">
+                <p class="score-value">76</p>
+                <p class="score-total">of 100</p>
+            </div>
+            <h3 class="result-grade">Great</h3>
+            <p class="result-text">You scored higher than 65% of the people who have taken these tests.</p>
+        </div>
+        <div class="summary-section">
+            <h2 class="summary-title">Summary</h2>
+            <ul class="summary-list">
+                <li class="summary-item reaction">
+                    <div class="item-icon">
+                        <img src="assets/images/icon-reaction.svg" alt="Reaction">
+                    </div>
+                    <p class="item-label">Reaction</p>
+                    <p class="item-score">80 <span>/ 100</span></p>
+                </li>
+                <li class="summary-item memory">
+                    <div class="item-icon">
+                        <img src="assets/images/icon-memory.svg">
+                    </div>
+                    <p class="item-label">Memory</p>
+                    <p class="item-score">92 <span>/ 100</span></p>
+                </li>
+                <li class="summary-item verbal">
+                    <div class="item-icon">
+                        <img src="assets/images/icon-verbal.svg">
+                    </div>
+                    <p class="item-label">Verbal</p>
+                    <p class="item-score">61 <span>/ 100</span></p>
+                </li>
+                <li class="summary-item visual">
+                  <div class="item-icon">
+                        <img src="assets/images/icon-visual.svg">
+                    </div>
+                    <p class="item-label">Visual</p>
+                    <p class="item-score">72 <span>/ 100</span></p>
+                </li>
+            </ul>
+            <button class="continue-button">Continue</button>
+        </div>
+    </main>
+</body>
+</html>

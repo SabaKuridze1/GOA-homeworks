@@ -1,0 +1,153 @@
+body {
+  font-family: 'Hanken Grotesk', sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+  background-color: whitesmoke;
+}
+
+.card {
+  background-color: white;
+  display: flex;
+  border-radius: 30px;
+  box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.1);
+  max-width: 700px;
+  overflow: hidden;
+}
+
+.result-section {
+  background: linear-gradient(180deg, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+  color: white;
+  text-align: center;
+  padding: 40px;
+  border-radius: 30px;
+  width: 50%;
+}
+
+.result-title {
+  font-size: 1.5rem;
+  margin-bottom: 20px;
+  color: hsl(241, 100%, 89%);
+}
+
+.score-circle {
+  background: linear-gradient(180deg, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.score-value {
+  font-size: 4rem;
+  font-weight: 800;
+}
+
+.score-total {
+  font-size: 1rem;
+  color: hsl(241, 100%, 89%);
+}
+
+.result-grade {
+  font-size: 2rem;
+  margin-top: 20px;
+}
+
+.result-text {
+  font-size: 0.9rem;
+  color: hsl(241, 100%, 89%);
+  line-height: 1.6;
+  padding: 0 20px;
+}
+
+.summary-section {
+  width: 50%;
+  padding: 40px;
+}
+
+.summary-title {
+  font-size: 1.5rem;
+  color: hsl(224, 30%, 27%);
+  margin-bottom: 25px;
+}
+
+.summary-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.summary-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.summary-item.reaction {
+  background-color: hsla(0, 100%, 67%, 0.05);
+  color: hsl(0, 100%, 67%);
+}
+
+.summary-item.memory {
+  background-color: hsla(39, 100%, 56%, 0.05);
+  color: hsl(39, 100%, 56%);
+}
+
+.summary-item.verbal {
+  background-color: hsla(166, 100%, 37%, 0.05);
+  color: hsl(166, 100%, 37%);
+}
+
+.summary-item.visual {
+  background-color: hsla(234, 85%, 45%, 0.05);
+  color: hsl(234, 85%, 45%);
+}
+
+.item-icon img {
+  width: 20px;
+}
+
+.item-label {
+  font-weight: 500;
+  margin-left: 10px;
+}
+
+.item-score {
+  font-weight: 700;
+}
+
+.item-score span {
+  font-weight: 500;
+  color: hsl(224, 30%, 27%);
+  opacity: 0.5;
+}
+
+.continue-button {
+  background-color: hsl(224, 30%, 27%);
+  color: white;
+  border: none;
+  padding: 15px 0;
+  border-radius: 30px;
+  width: 100%;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 25px;
+  transition: background-color 0.3s ease;
+}
+
+.continue-button:hover {
+  background-color: hsl(224, 30%, 27%, 0.8);
+}
+
+.item-icon, .item-label {
+  display: inline-flex;
+  align-items: center;
+}
