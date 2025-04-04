@@ -1,0 +1,1 @@
+"""26) ახსენი რას გამოიტანს შედეგად და რატომ (True and False) or True and True or False."""

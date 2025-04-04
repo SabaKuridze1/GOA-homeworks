@@ -1,0 +1,1 @@
+"""28) გაიგე რა შედეგს გამოიტანს --> True and (True or False) and False or (True and False) და კომენტარის სახით ახსენი რატომ. """
